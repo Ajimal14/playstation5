@@ -1,0 +1,16 @@
+{
+  "name": "GetPlayStation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cypress run --headed --spec 'cypress/integration/sony.spec.js'"
+  },
+  "author": "Ashish Ajimal ( House )",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cypress": "^7.3.0"
+  }
+}
